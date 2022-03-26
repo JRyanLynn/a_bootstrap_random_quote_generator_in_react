@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
+#quote-box {
+  background-color: #006633;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.box {
+  background-color: whitesmoke;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.buttons {
+margin-top: 70px;
+margin-bottom: 50px;
+margin-left: auto;
+margin-right: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.buttons button {
+width: 600px;
 }
 
-.App-link {
-  color: #61dafb;
+.buttons a {
+position: absolute;
+width: 530px;
+margin-top:50px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#author {
+margin-top: 10px;
 }
+
+#text{
+  font-family: IBM Plex Serif, serif;
+  font-size: 48px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1.2em;
+  letter-spacing: 1px;
+}
+
+#author {
+      font-family: IBM Plex Serif, serif;
+      font-size: 18px;
+      font-weight: 100;
+      color: rgba(0, 0, 0, 1);
+      text-transform: none;
+      font-style: italic;
+      text-decoration: none;
+      line-height: 1.2em;
+      letter-spacing: 1px;
+}
+
